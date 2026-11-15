@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.catandpaste/catandpaste",
+  "title": "Cat & Paste",
+  "description": "Paste a how-to video link. Get a playbook your AI assistant follows when you ask it for advice.",
+  "version": "1.0.0",
+  "websiteUrl": "https://catandpaste.app/en/connect",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.catandpaste.app/mcp"
+    }
+  ]
+}
