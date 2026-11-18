@@ -34,6 +34,17 @@ Your assistant sees your playbooks and whether a read started. It never sees you
 - What does my playbook say I should avoid?
 - Which of my playbooks fits what I am working on?
 
+## Teach your assistant
+
+[`skills/cat-and-paste/SKILL.md`](skills/cat-and-paste/SKILL.md) is a small guide that tells an assistant when to reach for your playbooks and how to follow them: check the connector is there, list and read the playbook that fits, learn a shared video link, and report your reads without ever selling.
+
+- Claude, ChatGPT, Gemini and Perplexity: add it from the buttons on [catandpaste.app/en/connect](https://catandpaste.app/en/connect), which download the file each one asks for and show its steps.
+- Coding agents (Claude Code, Codex, Cursor and others):
+
+  ```
+  npx skills add Yepecpp/catandpaste-mcp --skill cat-and-paste
+  ```
+
 ## A free playbook
 
 [`playbooks/price-a-service-job/SKILL.md`](playbooks/price-a-service-job/SKILL.md) is a complete example, written from an invented lesson. Playbooks are standard files: Claude, ChatGPT, Gemini and Perplexity accept them as uploads, and any assistant can take the text.
